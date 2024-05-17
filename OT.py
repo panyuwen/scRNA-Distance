@@ -122,7 +122,7 @@ def get_result(h5ad_filename, yaml_filename, cost):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='pairwise MMD, take h5ad as input')
+    parser = argparse.ArgumentParser(description='pairwise OTD, take h5ad as input')
     parser.add_argument("--h5ad", type=str, required = True, \
                         help="h5ad file")
     parser.add_argument("--yaml", type=str, required = True, \
